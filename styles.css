@@ -1,5 +1,6 @@
 body{
   margin: 0px;
+  background-color: #9CA3AF;
 }
 .link {
   text-decoration: none;
@@ -10,7 +11,10 @@ body{
 
 .list-item-inline {
   display: inline;
-  padding: 0rem 0.5rem;
+  padding: 0.2rem ;
+  background-color: #D97706;
+  border-radius: 0.2rem;
+  margin: 0.4rem;
 }
 
 .navigation{
@@ -84,4 +88,24 @@ footer {
 section{
   text-align: center;
   font-style: italic;
+}
+#submit {
+  background-color: #D97706 ;
+  width: 8rem;
+  color: white;
+  padding: 0.5rem;
+}
+#calculateArea , #caltriangle , #calhypo {
+  background-color: #D97706 ;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.8rem;
+}
+#side , #Angle {
+  font-weight: bold;
+}
+#message {
+  margin: 1rem;
+  font-size: larger;
+  font-weight: bold;
 }
