@@ -28,6 +28,16 @@ nav h2{
 .container {
   text-align: center;
 }
+.container button {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+.container label{
+  text-align: center;
+}
+
 
 label{
   display: block;
@@ -35,4 +45,20 @@ label{
 }
 input{
   margin: 0.5rem;
+}
+.quiz-main {
+  text-align: center;
+
+}
+.quiz-main label {
+  display: contents;
+}
+.quiz-main p {
+  font-weight: bold;
+}
+.quiz-main button{
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 5rem;
+  background-color: #F59E0B;
 }
