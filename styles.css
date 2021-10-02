@@ -1,0 +1,27 @@
+body{
+  margin: 0px;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  margin: auto;
+  color: azure;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation{
+  background-color: #F59E0B;
+  padding: 0.5rem;
+  margin: 0px;
+}
+nav {
+  text-align: right;
+  color: white;
+}
+nav h2{
+  text-align: left;
+}
