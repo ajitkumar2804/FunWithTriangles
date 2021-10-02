@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hypotenuse</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Fun With Triangles</title>
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <nav class="navigation ">
@@ -18,23 +18,26 @@
             <a class="nav-list link " href="./quize.html">Quize</a>
         </li>
         <li class="list-item-inline">
-            <a class="nav-list link " href="/hypotenuse.html">Hypotenuse</a>
+            <a class="nav-list link " href="./hypotenuse.html">Hypotenuse</a>
         </li>
         <li class="list-item-inline">
-          <a class="nav-list link " href="/areaOfTriangle.html">Area of Trinagle</a>
+          <a class="nav-list link " href="/Pages/areaOfTriangle.html">Area of Trinagle</a>
       </li>
     </ul>
 </nav>
 <main class="container">
-    <h2>Hypotenuse </h2>
-    <label for="base">Enter The base value</label>
-    <input type="number" min="1" id="base"/>
-    <label for="height">Enter the height</label>
-    <input type="number" min="1" id="height"/>
-    <h2>Formula for Hypotenuse </h2>
-    <h3>√(base² + height²)</h3>
-    <button>Calculate The Hypotenuse</button>
-
+    <h2>Angles Of the Triangle </h2>
+    <h3>Enter The Follwing Values To Check For Trinagle</h3>
+    <label for="Angle 1">Angle 1</label>
+    <input type="number" min="1" class="angle" />
+    <label for="Angle 1">Angle 2</label>
+    <input type="number" min="1" class="angle" />
+    <label for="Angle 1">Angle 3</label>
+    <input type="number" min="1" class="angle" />
+    <button id="caltriangle">Check For Triangle</button>
     <div id="message"></div>
+    </main>
+  
 </body>
+<script src="/scripts/Angle.js"></script>
 </html>

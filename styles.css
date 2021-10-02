@@ -46,19 +46,23 @@ label{
 input{
   margin: 0.5rem;
 }
-.quiz-main {
+.quizmain {
   text-align: center;
 
 }
-.quiz-main label {
+.quizmain label {
   display: contents;
 }
-.quiz-main p {
+.quizmain p {
   font-weight: bold;
 }
-.quiz-main button{
+.quizmain button{
   padding: 0.5rem;
-  margin: 1rem;
+  margin: 0.5rem;
   width: 5rem;
   background-color: #F59E0B;
+  border-radius: 0.5rem;
+}
+.quizmain h2 {
+  margin: auto;
 }

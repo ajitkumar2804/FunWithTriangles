@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Area Of Triangle</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <nav class="navigation ">
@@ -18,23 +18,21 @@
             <a class="nav-list link " href="./quize.html">Quize</a>
         </li>
         <li class="list-item-inline">
-            <a class="nav-list link " href="/hypotenuse.html">Hypotenuse</a>
+            <a class="nav-list link " href="./hypotenuse.html">Hypotenuse</a>
         </li>
         <li class="list-item-inline">
-          <a class="nav-list link " href="/areaOfTriangle.html">Area of Trinagle</a>
+          <a class="nav-list link " href="./areaOfTriangle.html">Area of Trinagle</a>
       </li>
     </ul>
 </nav>
 <main class="container">
   <h2>Calculate The Area Of The Triangle </h2>
   
-    <label for="side">Enter The first side</label>
-    <input type="number" min="1"/>
-    <label for="side">Enter the second side </label>
-    <input type="number" min="1"/>
-    <label for="side">Enter The third Side</label>
-    <input type="number" min="1"/>
-    <button>Calculate The Area </button>
+    <label for="side">Enter The Base</label>
+    <input type="number" min="1" id="base"/>
+    <label for="side">Enter the Height </label>
+    <input type="number" min="1" id="height"/>
+    <button id="calculateArea">Calculate The Area </button>
     <div id="message"></div>
 
   <div id="message"></div>
@@ -42,4 +40,5 @@
 
 </main>
 </body>
+<script src="/scripts/calculate_area.js"></script>
 </html>
