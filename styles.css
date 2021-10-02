@@ -66,3 +66,22 @@ input{
 .quizmain h2 {
   margin: auto;
 }
+footer {
+  text-align: center;
+  background-color: #fbbf24;
+  line-height: 1.8;
+}
+
+.footer-title {
+  padding-top: 0.3em;
+}
+
+.footer-text {
+  margin-bottom: 0;
+  padding-bottom: 2em;
+  padding-top: 1rem;
+}
+section{
+  text-align: center;
+  font-style: italic;
+}
