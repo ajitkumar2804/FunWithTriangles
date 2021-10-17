@@ -8,6 +8,9 @@ function sumOfAngles(angle1, angle2, angle3) {
 }
 
 function isTriangle() {
+  if(inputs[0].value <0 || inputs[1].value <0 || inputs[2].value <0 ){
+     outputEl.innerText = " Value Of the Angle Cannot be Negative "
+  }else{
   const sum = sumOfAngles(
     Number(inputs[0].value),
     Number(inputs[1].value),
@@ -20,6 +23,7 @@ function isTriangle() {
     console.log("Oh Oh! The angle doesn't form a triangle");
     outputEl.innerText = "Oh Oh! The angle doesn't form a triangle";
   }
+}
 }
 
 isTriangleBtn.addEventListener("click", isTriangle);
